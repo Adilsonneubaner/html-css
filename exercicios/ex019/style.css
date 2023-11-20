@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(240, 229, 214, 0.884);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: rgb(243, 158, 31);
+}
+h1#seletor{
+    text-align: center;
+}
+h2{
+    color: rgb(131, 86, 18);
+}
+.basico{
+     color: rgba(182, 119, 25, 0.836); 
+     font-weight: bold;
+}
+.intermediario{
+    color: rgb(175, 106, 3);
+    font-weight: bold;
+}
+.avancado{
+    color: rgb(131, 86, 18);  
+    font-weight: bold;  
+}
+.destaque{
+    background-color:rgba(253, 210, 145, 0.473) ;
+}

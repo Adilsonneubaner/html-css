@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Insegindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu própio servidor</p>
+    <video src="midia/meu-video-mp4.mp4" width="300" controls></video>
+    <p>Essa é a maneira de colocar o video em apenas um formato</p>
+    <h2>Colocando em varios formatos:</h2>
+    <video width="300" controls autoplay poster="imagens/capa-de-video.png">
+        <source src="midia/meu-video-mp4.mp4" type="video/mp4">
+        <source src="midia/meu-video.webm.webm" type="video/webm">
+        <source src="midia/meu-video.mkv.mkv" type="video/mp4">
+        <source src="midia/meu-video-ogv.ogv" type="video/ogg">
+        <p>Seu navegador não é compatível com os formatos de vídeo, <a href="midia/meu-video-mp4.mp4" download="midia/meu-video-mp4.mp4" type="video/mp4">clique aqui</a> para fazer o download do mesmo</p>
+    </video>
+    <h1>Também é possível colocar videos externamente no seu site</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XZuM4zFg-60?si=Z0OyrhpFUBp7Anez" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

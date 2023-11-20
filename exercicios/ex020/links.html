@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes e pseudo-elementos</title>
+</head>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        a{
+            color: rgb(92, 92, 240);
+            text-decoration: none;
+        }
+        a:visited{
+            color: rgb(154, 87, 218);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: rgb(113, 221, 221);
+        }
+        .especial::before{
+            content: '<';
+        }
+        .especial::after{
+            content: '>';
+        }
+    </style>
+<body>
+    <h1>Personalizando links</h1>   
+    <ul type="square">
+        <li><a href="https://github.com/gustavoguanabara" rel="external" target="_blank">GitHub</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo" target="_blank" rel="external">YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank" rel="external" class="especial">Site</a></li>
+    </ul>
+    </body>
+</html>

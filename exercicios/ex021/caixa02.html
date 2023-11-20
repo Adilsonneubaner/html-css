@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(202, 209, 221);
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(176, 236, 194);
+            padding: 5px;
+            margin: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.514);
+        }
+        header > h1{
+            text-align: center;
+            font-size: 40px;
+            margin-top: 1px;
+            margin-right: auto;
+            margin-bottom: 7px;
+            margin-left: auto;
+            padding: 3px;
+            width: 300px;
+            color:rgb(90, 139, 105) ;
+            border: 5px solid rgb(90, 139, 105);
+            border-radius: 5px;
+        }
+        nav{
+            background-color: rgb(144, 147, 218);
+            width: 307px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.205);
+            
+        }
+        nav > a{
+            color: rgb(100, 101, 136);
+            text-decoration: none;
+            margin-right: 10px;
+            margin-left: 10px;
+            text-align: center;
+            padding-right: 2px;
+            padding-left: 2px;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: white;
+        }
+        a:active{
+            color: rgb(0, 0, 0);
+        }
+        a:visited{
+            color: rgb(121, 9, 226);
+        }
+         article > h2{
+            margin: 10px;
+            font-size: 2em;
+            color:rgb(100, 101, 136) ;
+            background-color: rgb(168, 169, 211);
+            margin: 0px;
+            padding-left: 10px;
+        }
+        article > p{
+            margin: 10px;
+            padding: 6px;
+            text-align: justify;
+            background-color: white;
+        }
+        aside{
+            background-color: rgb(100, 101, 136);
+            margin: 0px;
+        }
+        footer > p{
+            text-align: right;
+            background-color: black;
+            color: white;
+            padding-right: 6px;
+            width: 230px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-right: 10px;
+            margin-left: auto;
+            border-radius: 5px 0px;
+            box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.24);
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header> 
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam optio, itaque numquam exercitationem iure magni. Quasi qui quos consequuntur blanditiis facere nisi rerum, eligendi ut amet ipsum reiciendis voluptatem obcaecati.</p>
+                <aside>
+                    <p>Artigo escrito por Joaozinho</p>
+                </aside>
+            </article>
+        </section>
+    </main>  
+    <footer>
+        <p>Desenvolvido por Neubaner</p>
+    </footer>
+</body>
+</html>

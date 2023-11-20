@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgba(179, 178, 178, 0.5);
+        }
+        header{
+            background-color: rgb(88, 85, 85);
+            padding: 5px;
+            margin: 0px;
+            border-radius: 5px;
+        }
+        h1{
+            text-align: center;
+            color: rgb(31, 31, 31);
+        }
+        nav{
+            background-color: rgba(214, 173, 205, 0.897);
+            width: 114px;
+            border-radius: 5px;
+            margin: -5px;
+            box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.082);
+        }
+        nav > a{
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            text-decoration: none;
+            padding:4px 8px 4px 8px;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(197, 98, 176);
+        }
+        main{
+            background-color: white;
+            padding: 5px;
+            border-radius: 5px;
+            height: 159px;
+        }
+        h2{
+            background-color:rgba(214, 173, 205, 0.897) ;
+            color: rgb(197, 98, 176);
+            margin-left: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            width: 201px;
+            border-radius: 2px;
+            box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.082);
+        }
+        p{
+            text-align: justify;
+            padding: 2px;
+            margin: 5px;
+            width: 514px;
+        }
+        aside{
+            background-color: rgb(88, 85, 85);
+            color: rgb(31, 31, 31);
+            text-align: justify;
+            font-weight: 500;
+            width: 370px;
+            margin-left: auto;
+            margin-top: -51px;
+            padding: 8px;
+            border-radius: 6px;
+            box-shadow:2px 2px 4px 1px rgba(0, 0, 0, 0.233) ;
+            color: rgb(31, 31, 31);
+        }
+        footer{
+            background-color: rgba(214, 173, 205, 0.897);
+            margin-left: auto;
+            width: 236px;
+            padding: 3px;
+            border-radius: 1px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.171);
+        }
+        footer > p{
+            color: rgb(31, 31, 31) ;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Modelo de caixa na prática</h1>
+        <nav>
+            <a href="https://i.pinimg.com/564x/94/6c/7a/946c7a72a3b76662af82040f840b9c17.jpg" target="_blank" rel="external">Link</a>
+            <a href="https://i.pinimg.com/564x/73/77/52/73775294895f7f1318fada85c9cfda70.jpg" target="_blank" rel="external">Link</a>   
+        </nav>
+    </header>  
+    <main>
+        <section>
+            <h2>Como funciona</h2>
+            <p>Veja como o texto está posicionado na tela, isso tudo é graças ao modelo de caixa em HTML</p>
+            <aside>Cada parte visível de um site é uma caixa, e essas caixas estao uma dentro da outra, organizando os sites de forma mais eficaz</aside>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Neubaner</p>
+    </footer> 
+</body>
+</html>
