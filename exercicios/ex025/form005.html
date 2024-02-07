@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Testando formulários</h1>  
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <h2>Plataforma</h2>
+            <input type="radio" name="plat" id="ipc">
+            <label for="ipc">PC</label>
+            <input type="radio" name="plat" id="ps">
+            <label for="ps">PlayStation</label>
+            <input type="radio" name="plat" id="xbox">
+            <label for="xbox">Xbox</label>
+        </fieldset>
+        <fieldset>
+            <h2>Jogos preferidos</h1>
+            <label for="icod">Call of Duty</label>
+            <input type="checkbox" name="cod" id="icod"><br>
+            <label for="ififa">FIFA</label>
+            <input type="checkbox" name="fifa" id="ififa"><br>
+            <label for="igod">God of War</label>
+            <input type="checkbox" name="god" id="igod"><br>
+            <label for="itlou">The Last of Us</label>
+            <input type="checkbox" name="tlou" id="itlou">
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
